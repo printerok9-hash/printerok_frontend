@@ -12,7 +12,7 @@ export default function Home() {
     <div className="launch-page">
       <a className="skip-link" href="#main">Skip to content</a>
       <header className="site-header">
-        <Link href="/" className="brand" aria-label="PrinterOK home"><Image src="/images/logo.png" alt="PrinterOK — printer repair service" width={128} height={128} preload className="brand-logo" /></Link>
+        <Link href="/" className="brand" aria-label="PrinterOK home"><Image src="/images/logo.png" alt="PinterOK — printer repair service" width={128} height={128} preload className="brand-logo" /></Link>
         <div className="header-note"><strong>Printer repairs & support</strong><span>A fresh start. For every printer.</span></div>
         <div className="header-actions">
           <span className="header-status">
@@ -67,7 +67,7 @@ export default function Home() {
             <div className="detail-photo"><Image src="/images/printerepair2.jpg" alt="A technician working on an office printer" fill sizes="(max-width: 600px) 240px, 280px" /></div>
             <div className="photo-note-bottom"><span>A new chapter in<br /><strong>printer care.</strong></span><Arrow diagonal /></div>
           </div>
-          <div className="vertical-caption" aria-hidden="true">PRINTEROK / PRINTER REPAIR SERVICE</div>
+          <div className="vertical-caption" aria-hidden="true">PINTEROK / PRINTER REPAIR SERVICE</div>
           <div className="hero-index" aria-hidden="true"><span className="colour-bars"><i /><i /><i /><i /></span></div>
         </section>
         <section className="coming-section" id="whats-coming" aria-labelledby="coming-title">
@@ -77,10 +77,10 @@ export default function Home() {
           <div className="launch-stamp"><span className="status-dot" /><span>COMING<br /><strong>SOON.</strong></span><Arrow diagonal /></div>
         </section>
       </main>
-      <footer className="site-footer"><p>© {new Date().getFullYear()} PrinterOK</p><p>A little patience. A better printing day.</p><span>printerok9@gmail.com <span aria-hidden="true">↗</span></span></footer>
+      <footer className="site-footer"><p>© {new Date().getFullYear()} PinterOK</p><p>A little patience. A better printing day.</p><span>printerok9@gmail.com <span aria-hidden="true">↗</span></span></footer>
       <section className="site-disclaimer" aria-labelledby="disclaimer-title">
         <h2 id="disclaimer-title">Disclaimer</h2>
-        <p>FixPrinter is an independent third-party technical support provider. We are not affiliated with, authorized by, or endorsed by HP, Canon, Epson, Brother, Lexmark, Dell, Samsung, Xerox, Ricoh, or any other printer manufacturer. All brand names, trademarks, and logos are the property of their respective owners and are used for identification purposes only.</p>
+        <p>Pinterok is an independent third-party technical support provider. We are not affiliated with, authorized by, or endorsed by HP, Canon, Epson, Brother, Lexmark, Dell, Samsung, Xerox, Ricoh, or any other printer manufacturer. All brand names, trademarks, and logos are the property of their respective owners and are used for identification purposes only.</p>
       </section>
     </div>
   );
